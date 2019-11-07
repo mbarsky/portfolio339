@@ -48,6 +48,26 @@ body{
     text-align: left;
     background-color: #2B3E50;
 }
+.skip a{
+  background: black;
+  left: 0;
+  padding: 6px;
+  position: relative;/*Your code here - position relative to the parent */;
+  top:   -40px;   /*Your code here - place 40px higher */;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+.skip a:focus, .skip a:active{
+border: 2px solid black; 
+left: auto;
+top: auto;
+height: auto;
+overflow: auto;
+margin: 40px;
+padding: 6px;
+z-index: 999;
+  }
 
 .container{
 
