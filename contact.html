@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139590807-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-139590807-2');
+        </script>
+
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The Weather Site">
+        <meta name="keywords" content="weather, school of information, rain, Ann Arbor, Michael Barsky, UMSI, SI 339, portfolio">
+        <meta name="author" content="Michael Barsky">
+        <title>Michael's Weather Portfolio</title>
+        <link href="styles/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+    <div class= "container3">
+        <nav class = "nav">
+                <div class="topnav" id="myTopnav">
+                        <a href="index.html">Home</a>
+                        <a href="gallery.html">Gallery</a>
+                        <a href="seasons.html">Seasons</a> 
+                        <a href="contact.html" class="active">About</a>
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+        </nav>
+       <div class = "contact1">
+            <h3 tabindex="0"> My Love for Weather! </h3>
+            <div tabindex="0"> 
+            <p> My passion for weather started back when I was in 6th grade. I took a field trip to the Newseum in Washington D.C. and I was able to do a live broadcast of the local weather report on television. Since This experience, I have absolutely loved being on air and talking about weather. I am an aspiring meteorologist.</p>
+            <p> When I am not frantically looking at the local weather doplars or studying for my extreme weather class, I can be found at concerts, exploring new places, and living an adventurous lifestyle. Recently my love for attending live music and weather was brought together as I was able to assist artists at Atlantic Records predict the weather patterns for their shows.</p>
+            <p> I am always looking for friends to talk weather patterns with me! If you are interested in going storm chasing or just want to get to know me better, please reach out below! </p>
+                </div>
+        </div>
+        <div class = "contact2"> 
+                        <div class="flip-container" tabindex="0" ontouchstart="this.classList.toggle('hover');">
+                                        <div class="flipper">
+                                                <div class="front">
+                                                                <img class="headshot img-fluid" src="images/headshot.jpg" alt="Portrait of Michael Barsky" />
+                                                        <!-- front content -->
+                                                </div>
+                                                <div class="back">
+                                                        <h1> This is Me!</h1>
+                                                        <p> Meteorlogist by day, herpetologist by night. Herpetology website coming soon.</p>
+                                                        <!-- back content -->
+                                                </div>
+                                        </div>
+                                </div>
+                <!-- <img class="headshot img-fluid" src="images/headshot.jpg" alt="Portrait of Michael Barsky" /> -->
+        </div>
+        <div class="contact3">
+                        <form action="https://formspree.io/xyyyyloe"  method="POST">
+                               <div class="formSpace"> 
+                                <label for="nameInput">Your Name </label>
+                                <br class="spacingz">
+                                <input id ="nameInput" type="text" name="name">
+                                <br class="spacingz">
+                                </div>
+                                <div class="formSpace">
+                                <label for="emailInfo">Your Email </label>
+                                <br class="spacingz">
+                                <input id ="emailInfo" type="email" name="_replyto">
+                                <br class="spacingz">
+                                </div>
+                                <div class="formSpace">
+                                <label for="noteInfo">Your Note </label>
+                                <br class="spacingz">
+                                <input id ="noteInfo" type="text" name="Note">
+                                <br class="spacingz">
+                                </div>
+                                <input class= "btn btn-secondary" type="submit" value="Send">
+                        </form>
+        </div>
+        <footer class ="footer3" tabindex="0">
+                <p>University of Michigan School of Information <br/>
+                    &copy; Michael Barsky - Web Design 2019-2020</p>
+        </footer> 
+    </div> 
+
+</body>
+<script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</html>

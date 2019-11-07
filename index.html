@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Michael's Weather Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139590807-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-139590807-2');
+        </script>
+
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The Weather Site">
+        <meta name="keywords" content="weather, school of information, rain, Ann Arbor, Michael Barsky, UMSI, SI 339, portfolio">
+        <meta name="author" content="Michael Barsky">
+    
+        <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
+        <!-- <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+        <!-- Custom CSS ––––––––––––––––––––––––––– -->
+        <link href="styles/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+        <div class = "container"> 
+            <nav class = "nav">
+                    <div class="topnav" id="myTopnav">
+                            <a href="index.html" class="active">Home</a>
+                            <a href="gallery.html">Gallery</a>
+                            <a href="seasons.html">Seasons</a> 
+                            <a href="contact.html">About</a>
+                            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                    </div>
+            </nav>
+            <div class="Main">
+                <div class="parallax"></div>
+                <div style="height: auto;background-color:#2B3E50;">
+                    <div class ="mainSpacer">
+                    <div class ="nug">  
+                        <h1 class = "hit-the-floor" tabindex="0"> Welcome to Michael's Weather Site! </h1>
+                    </div>  
+                    <a name="headerParagraph"></a>
+                        <p class = "nug" tabindex="0"> This website is dedicated to exploring the seasons and the way in which different weather patterns affect landscapes.</p>
+                
+                    <div class ="nug"> 
+                        <a name="header"></a>
+                        <a class= "btn btn-secondary" href="gallery.html"> View Seasons Gallery </a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            <div class="subheader">
+                    <h2 tabindex="0"> My Weather Resources </h2>
+                    <p tabindex="0"> Below are my favorite resources that I use to understand weather patterns!</p>
+            </div>
+            <div class="card1">
+                    <div class="card mb-3">
+                            <h3 class="card-header">Ventusky</h3>
+                            <div class="card-body">
+                              <h5 class="card-title">A website to understand weather patterns in your area</h5>
+                            </div>
+                            <img style="height: 200px; width: 100%; display: block;" src="images/canada.jpg" alt="Weather Patterns">
+                            <div class="card-body">
+                              <p class="card-text">This site is best used to monitor weather trends using graphs.</p>
+                            </div>
+                            <div class="card-body">
+                              <a href="https://www.ventusky.com/" class="card-link">Check out Ventusky</a>
+                            </div>
+                    </div>
+            </div>
+            <div class="card2">
+                    <div class="card mb-3">
+                            <h3 class="card-header">The Weather Channel</h3>
+                            <div class="card-body">
+                              <h5 class="card-title">Get an overview of the weekly forecast in your hometown!</h5>
+                            </div>
+                            <img style="height: 200px; width: 100%; display: block;" src="images/canyon.jpg" alt="The Weather Channel">
+                            <div class="card-body">
+                              <p class="card-text">This website is best used to understand the weather forecast in your area.</p>
+                            </div>
+                            <div class="card-body">
+                              <a href="https://weather.com/" class="card-link">Check out the Weather Channel</a>
+                            </div>
+                    </div>
+            </div>
+            <div class="card3">
+                    <div class="card mb-3">
+                            <h3 class="card-header">Daily Dress Me</h3>
+                            <div class="card-body">
+                              <h5 class="card-title">Always know what to wear depending on the weather conditions </h5>
+                            </div>
+                            <img style="height: 200px; width: 100%; display: block;" src="images/hiking.jpg" alt="Dress for the Weather">
+                            <div class="card-body">
+                              <p class="card-text">This site is best to assist people in what to wear for their current weather status</p>
+                            </div>
+                            <div class="card-body">
+                              <a href="https://dailydressme.com/" class="card-link">Check out Daily Dress Me</a>
+                            </div>
+                    </div>
+            </div>
+            <div class="card4"></div>
+            <footer class ="footer">
+                    <p>University of Michigan School of Information <br/>
+                        &copy; Michael Barsky - Web Design 2019-2020</p>
+            </footer>   
+        </div>
+</body>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</html>

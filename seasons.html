@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139590807-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-139590807-2');
+        </script>
+
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The Weather Site">
+        <meta name="keywords" content="weather, school of information, rain, Ann Arbor, Michael Barsky, UMSI, SI 339, portfolio">
+        <meta name="author" content="Michael Barsky">
+        <title>Michael's Weather Portfolio</title>
+    
+        <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
+        <!-- <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+        <!-- Custom CSS ––––––––––––––––––––––––––– -->
+        <link href="styles/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+        <div class = "container2"> 
+            <nav class = "nav">
+                    <div class="topnav" id="myTopnav">
+                            <a href="index.html">Home</a>
+                            <a href="gallery.html">Gallery</a>
+                            <a href="seasons.html" class="active">Seasons</a> 
+                            <a href="contact.html">About</a>
+                            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                    </div>
+            </nav>
+            <div class = "szn1" tabindex="0">
+                    <h1> What is Fall? </h1>
+                    <p> Fall, also known as Autumn, is the transition period between summer and winter. Some of the key features of this season are temperate climates, changing colors of leaves from decidious trees, and gamedays at Michigan. Some key fall holidays in North America include Thanksgiving and Halloween.  </p>
+            </div>
+            <div class = "szn2"> 
+                        <img class="smallhome img-fluid" src="images/fall.jpg" alt="Picture of Fall" />
+            </div>
+            <div class = "szn3"> 
+                    <picture class="seasonal">
+                            <source class="img-fluid" srcset="images/winter.jpg" media="(min-width:500px)">
+                            <img class="smallhome img-fluid" src="images/winter.jpg" alt="Picture of Winter" />
+                    </picture>
+            </div>
+            <div class = "szn4" tabindex="0"> 
+                    <h1> What is Winter?</h1>
+                    <p> Winter is the coldest of seasons in places  with temperate climates. It occurs between fall and spring. Winter occurs when the axis of earth is pointed away from the sun, making days shorter and colder. In places such as Michigan, the temperate can dip below 0 degrees and have constant snow.</p>
+            </div>
+            <div class = "szn5" tabindex="0"> 
+                    <h1> What is Spring? </h1>           
+                    <p> Spring is the season between summer and winter. In temperate climates, this is the season where days begin to get longer and warmer. Spring is oftentimes associated with the ideas of regrowth, renewal, and regeneration. Many plants' flowers bloom during this time period, and any remaining snow from winter tends to melt away.</p>
+            </div>
+            <div class = "szn6"> 
+                    <picture class="seasonal">
+                            <source class="img-fluid" srcset="images/spring.jpg" media="(min-width:500px)">
+                            <img class="smallhome img-fluid" src="images/spring.jpg" alt="Picture of Spring" />
+                    </picture>
+            </div>
+            <footer class ="footer1" tabindex="0">
+                    <p>University of Michigan School of Information <br/>
+                        &copy; Michael Barsky - Web Design 2019-2020</p>
+            </footer> 
+        </div>    
+</body>
+<script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</html>
